@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.chat{
+    height: 98%;
+    width: 92%;
+    background: linear-gradient(rgba(202, 238, 236, 0.911), rgb(216, 244, 245)),
+     url(https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* position: absolute;
+top: 5px;
+left: 60px; */
+position: relative;
+border-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-top: 0.4%;
+margin-left: 4%;}
+
+.page1{
+    height: 20%;
+    width: 80%;
+    background-color: rgb(197, 196, 194);
+}
+.navi1{
+height: 10%;
+width: 70%;
+background-color: rgb(197, 196, 194);
+position: absolute;
+top:0;
+left: 30%;
+
+}
+.profi{
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 1%;
+
+}
+.navi1> .profi .profile{
+    height: 70%;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1515160813423-b851dc54a427?q=80&w=1389&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 50%;
+margin: 10px 10px;
+border: 2px solid rgb(34, 243, 34);
+
+}
+.navi1>.ronak{
+   background-color: aqua;
+}
+   
+.profi h3{
+    font-size: 20px;
+   position: absolute;
+   top: 22%;
+   left: 10%;
+}
+.profi> p{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.profi>.icon3{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+.icon3 >i{
+    margin: 20px 10px;
+}
+.pakpak{
+    height: 90%;
+    width: 70%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.pak1{
+    height:6%;
+    width: 15%;
+    background-color: white;
+    position: absolute;
+    left: 43%;
+    border-radius: 5px;
+}
+.pak1>p{
+    margin: 8px 30px;
+    
+}
+.pak2{
+    height:10%;
+    width: 20%;
+    background-color:rgb(179, 236, 172);
+    position: absolute;
+    top:7%;
+    left:78%;
+    border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.pak2>p{
+    margin: 8px 30px;
+    font-weight: 800;
+}
+.pak3{
+    height:12%;
+    width: 32%;
+    background-color:  rgb(179, 236, 172);
+    position: absolute;
+    top: 20%;
+    left: 66%;
+    border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.pak3>p{
+    margin:5px 30px;
+}
+.pak3>h6{
+    margin:5px 30px;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+}
+
+
+
+.moji{
+    height: 17%;
+    width: 42%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 28%;
+
+}
+.moji2{
+    height: 40%;
+    width: 11%;
+    background-image: url(https://images.unsplash.com/photo-1527538079466-b6297ad15363?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 4%;
+    border-radius: 50%;
+}
+.pak4{
+    height:70%;
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    top: 29%;
+    left: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.pak4>p{
+    margin:5px 10px;
+}
+.pak4>h6{
+       font-size: 16px;
+       margin-left: 10px;
+       margin-top: 1%;
+       color: blue;
+}
+
+.pak5{
+    height:20%;
+    width: 50%;
+    background-color: rgb(179, 236, 172);
+    position: absolute;
+    top: 47%;
+    left: 48%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+.pak5>p{
+    margin: 20px 30px;
+}
+.moji3{
+    height: 17%;
+    width: 42%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 65%;
+
+}
+.moji4{
+    height: 40%;
+    width: 11%;
+    background-image: url(https://images.unsplash.com/photo-1692624571955-ad757fff0fb8?q=80&w=1391&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 4%;
+    border-radius: 50%;
+}
+.pak6{
+    height:90%;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 21%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.pak6>p{
+    margin:8px 10px;
+}
+.pak6>h6{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 1%;
+    color: rgb(255, 51, 0);
+}
+/* .pak6{
+    height:20%;
+    width: 30%;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    border-radius: 10px;
+}
+.pak6>p{
+    margin: 8px 30px;
+} */
+footer{
+    height: 9%;
+    width: 100%;
+    background-color: rgb(192, 187, 187);
+    position: absolute;
+    top: 91%;
+}
+.icon5{
+height: 70%;
+width: 10%;
+/* background-color: aqua; */
+font-size: 26px;
+margin: 10px ;
+
+
+}
+.text{
+    height: 80%;
+    width: 85%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    left: 12%;
+    top: 15%;
+   
+
+}
+.text> input{
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.text> .icon6{
+position: absolute;
+top: 20%;
+left: 92%;
+font-size: 25px;
+}
+
+
+/* people */
+ .people> nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(192, 187, 187);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 10px;
+
+}
+.people> nav>.icon{
+    position: absolute;
+    left: 12%;
+    
+}
+.icon>i{
+ margin: 20px 10px;
+    font-size: 20px;
+}
+.people{
+    height:100%;
+    width: 30%;
+    background-color: rgb(245, 238, 238);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid rgb(133, 129, 129);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1449312605762-1df9d89ee6b7?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 50%;
+border: 3px solid rgb(18, 236, 18);
+position: absolute;
+left: 10px;
+top: 10px;
+
+
+}
+.search{
+    height:8%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(212, 207, 207);
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    
+}
+.search >input{
+    width: 95%;
+    padding: 10px 30px;
+    margin: 8px 10px;
+    border-radius: 10px;
+   background-color: rgb(228, 222, 222);
+   border: none;
+}
+.search> i{
+    /* background-color: aqua; */
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    margin-top: 15px;
+    
+    
+}
+.chat1{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat1> .logo1{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1706559113173-8eba9d56d318?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+
+}
+.chat1> .chating{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+
+    
+}
+
+.chat2{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat2> .logo2{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1687462310643-e993a3f09102?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1687462310643-e993a3f09102?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+
+}
+.chat2> .chating2{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+    
+}
+.chat3{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat3> .logo3{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1515160813423-b851dc54a427?q=80&w=1389&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+    border: 3px solid rgb(18, 236, 18);
+
+}
+.chat3> .chating3{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+    
+}
+
+.chat4{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat4> .logo4{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1527538079466-b6297ad15363?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+
+}
+.chat4> .chating4{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+    
+}
+.chat5{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat5> .logo5{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1646809014371-9cd795d465d6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+    border: 3px solid rgb(18, 236, 18);
+
+}
+.chat5> .chating5{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+    
+}
+.chat6{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat6> .logo6{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1692624571955-ad757fff0fb8?q=80&w=1391&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+
+}
+.chat6> .chating6{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+    
+}
+.chat7{
+    height:12%;
+    width: 100%;
+    background-color:white;
+    border-bottom: 1px solid rgb(207, 202, 202);
+    display: flex;
+    align-items: right;
+}
+.chat7> .logo7{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://images.unsplash.com/photo-1525490829609-d166ddb58678?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 50%;
+    border: 3px solid rgb(18, 236, 18);
+
+}
+.chat7> .chating7{
+    width: 50%;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 7px 20px;
+    
+}
+.time{
+margin-top:10px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
